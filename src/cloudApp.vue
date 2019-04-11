@@ -17,7 +17,7 @@
 
 			<h2 v-if="errorShow">抱歉，国内未找到该城市</h2>
 
-			<div v-if="cityShow" style="margin-left:15%; margin-right: 15%; margin-bottom: 20px; margin-top: 20px; width: 70%;">
+			<div style="margin-left:15%; margin-right: 15%; margin-bottom: 20px; margin-top: 20px; width: 70%;">
 				<el-amap vid="vid" :center="center" :zoom="zoom" class="aMap" style="height: 300px;">
 					<el-amap-marker :position="position"></el-amap-marker>
 				</el-amap>
@@ -135,8 +135,8 @@
 				weatherShow: true,
 				newsShow: false,
 				zoom: 6,
-				center: [120, 30],
-				position: [120, 30]
+				center: [121.473701, 31.230416],
+				position: [121.473701, 31.230416]
 			}
 		},
 		methods: {
