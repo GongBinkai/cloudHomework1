@@ -6,3 +6,4 @@ Cloud Computing Homework1<br>
 http://t.weather.sojson.com/api/weather/city/<br>
 https://www.apiopen.top/journalismApi<br>
 分别用来获取天气和新闻<br>
+使用VueJS开发<br>
